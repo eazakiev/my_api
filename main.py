@@ -1,8 +1,15 @@
-# poetry shell flask-restful
+# poetry add flask-restful
+# https://devqa.io/curl-sending-api-requests/
+
 # to test:
+# curl http://127.0.0.1:5000/gta/4
 # curl -X PUT -H "Content-Type: application/json" \
     # -d '{"userId": 5, "text": "Salamalekum aga!", "lang": "kz"}' \
     # http://127.0.0.1:5000/gta/5
+# curl -X POST -H "Content-Type: application/json" \
+    # -d '{"userId": 10, "text": "Minecraft", "lang": "rrr"}' \
+    # http://127.0.0.1:5000/gta/10
+
 
 
 import random
